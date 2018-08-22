@@ -1,0 +1,581 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  22/Aug/2018  09:49:51
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Exe\project.out
+#    Map file     =  
+#        C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\List\project.map
+#    Command line =  
+#        -f C:\Users\Martins\AppData\Local\Temp\EW1993.tmp
+#        ("C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\canard.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\canard_stm32.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\main.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\misc.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\startup_stm32f4xx.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4_discovery.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_adc.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_can.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_crc.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_cryp.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_cryp_aes.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_cryp_des.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_cryp_tdes.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_dac.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_dbgmcu.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_dcmi.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_dma.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_exti.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_flash.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_fsmc.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_gpio.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_hash.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_hash_md5.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_hash_sha1.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_i2c.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_it.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_iwdg.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_pwr.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_rcc.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_rng.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_rtc.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_sdio.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_spi.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_syscfg.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_tim.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_usart.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\stm32f4xx_wwdg.o"
+#        "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj\system_stm32f4xx.o"
+#        --no_out_extension -o "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Exe\project.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\List\project.map"
+#        --config "C:\Users\Martins\Documents\IAR Embedded
+#        Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\project.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+"P3":  place in [from 0x1000'0000 to 0x1000'ffff] {
+          block CSTACK, section .ccram };
+define block HEAP with size = 8K, alignment = 8 { };
+"P4":  place in [from 0x2000'0000 to 0x2001'bfff] |
+                [from 0x2001'c000 to 0x2001'ffff] { rw, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2"
+  section .backup_sram                in "P5"
+  section .ccram                      in "P3"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x188
+  .intvec            ro code   0x800'0000   0x188  startup_stm32f4xx.o [1]
+                             - 0x800'0188   0x188
+
+"P1":                                      0x2790
+  .text              ro code   0x800'0188  0x1120  canard.o [1]
+  .text              ro code   0x800'12a8    0x24  ABIassert.o [5]
+  .text              ro code   0x800'12cc    0x66  ABImemset.o [4]
+  .text              ro code   0x800'1332    0x3a  zero_init3.o [4]
+  .text              ro code   0x800'136c     0x6  ABImemclr4.o [4]
+  .rodata            const     0x800'1372     0x2  canard.o [1]
+  .text              ro code   0x800'1374    0xa6  ABImemcpy.o [4]
+  .text              ro code   0x800'141c    0x1e  U64Shr.o [4]
+  .text              ro code   0x800'143a     0x6  abort.o [2]
+  .text              ro code   0x800'1440    0x32  ABImemset48.o [4]
+  .text              ro code   0x800'1474    0x14  exit.o [5]
+  .text              ro code   0x800'1488   0x56c  main.o [1]
+  .text              ro code   0x800'19f4   0x10c  stm32f4xx_rcc.o [1]
+  .text              ro code   0x800'1b00   0x10e  stm32f4xx_gpio.o [1]
+  .text              ro code   0x800'1c10   0x4f0  canard_stm32.o [1]
+  .text              ro code   0x800'2100   0x124  system_stm32f4xx.o [1]
+  .rodata            const     0x800'2224    0xa0  canard_stm32.o [1]
+  .rodata            const     0x800'22c4    0xa0  main.o [1]
+  .rodata            const     0x800'2364    0x8c  canard.o [1]
+  .rodata            const     0x800'23f0    0x50  canard.o [1]
+  .rodata            const     0x800'2440    0x48  canard_stm32.o [1]
+  .rodata            const     0x800'2488    0x38  canard_stm32.o [1]
+  .rodata            const     0x800'24c0    0x30  canard.o [1]
+  .text              ro code   0x800'24f0    0x2c  copy_init3.o [4]
+  .rodata            const     0x800'251c    0x28  main.o [1]
+  .text              ro code   0x800'2544    0x28  data_init.o [4]
+  .rodata            const     0x800'256c    0x24  canard.o [1]
+  .text              ro code   0x800'2590    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x800'25b4    0x24  - Linker created -
+  .text              ro code   0x800'25d8    0x20  stm32f4xx_it.o [1]
+  .text              ro code   0x800'25f8    0x1e  cmain.o [4]
+  .text              ro code   0x800'2616     0x4  low_level_init.o [2]
+  .text              ro code   0x800'261a     0x4  exit.o [2]
+  .text              ro code   0x800'2620     0xa  cexit.o [4]
+  .rodata            const     0x800'262c    0x1c  canard.o [1]
+  .rodata            const     0x800'2648    0x1c  canard.o [1]
+  .rodata            const     0x800'2664    0x18  main.o [1]
+  .rodata            const     0x800'267c    0x14  canard.o [1]
+  .rodata            const     0x800'2690    0x14  canard.o [1]
+  .rodata            const     0x800'26a4    0x14  canard.o [1]
+  .rodata            const     0x800'26b8    0x14  main.o [1]
+  .rodata            const     0x800'26cc    0x14  main.o [1]
+  .rodata            const     0x800'26e0    0x10  canard.o [1]
+  .rodata            const     0x800'26f0    0x10  canard.o [1]
+  .rodata            const     0x800'2700    0x10  canard.o [1]
+  .rodata            const     0x800'2710    0x10  canard_stm32.o [1]
+  .rodata            const     0x800'2720    0x10  canard_stm32.o [1]
+  .text              ro code   0x800'2730    0x10  startup_stm32f4xx.o [1]
+  .rodata            const     0x800'2740     0xc  canard.o [1]
+  .rodata            const     0x800'274c     0xc  canard.o [1]
+  .rodata            const     0x800'2758     0xc  canard.o [1]
+  .rodata            const     0x800'2764     0xc  canard.o [1]
+  .text              ro code   0x800'2770     0xc  cstartup_M.o [4]
+  .rodata            const     0x800'277c     0x8  canard_stm32.o [1]
+  .rodata            const     0x800'2784     0x4  canard_stm32.o [1]
+  .rodata            const     0x800'2788     0x4  canard_stm32.o [1]
+  .rodata            const     0x800'278c     0x4  main.o [1]
+  .rodata            const     0x800'2790     0x4  main.o [1]
+  .rodata            const     0x800'2794     0x4  main.o [1]
+  .text              ro code   0x800'2798     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'279c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27a0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27a4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27a8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27ac     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27b0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27b4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27b8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27bc     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27c0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27c4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27c8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27cc     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27d0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27d4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27d8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27dc     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27e0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27e4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27e8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27ec     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27f0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27f4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27f8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'27fc     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2800     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2804     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2808     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'280c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2810     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2814     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2818     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'281c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2820     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2824     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2828     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'282c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2830     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2834     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2838     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'283c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2840     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2844     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2848     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'284c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2850     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2854     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2858     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'285c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2860     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2864     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2868     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'286c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2870     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2874     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2878     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'287c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2880     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2884     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2888     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'288c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2890     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2894     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2898     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'289c     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28a0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28a4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28a8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28ac     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28b0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28b4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28b8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28bc     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28c0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28c4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28c8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28cc     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28d0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28d4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28d8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28dc     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28e0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28e4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28e8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28ec     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28f0     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28f4     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28f8     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'28fc     0x4  startup_stm32f4xx.o [1]
+  .text              ro code   0x800'2900     0x4  startup_stm32f4xx.o [1]
+  .rodata            const     0x800'2904     0x0  zero_init3.o [4]
+  .rodata            const     0x800'2904     0x0  copy_init3.o [4]
+  Initializer bytes  const     0x800'2904    0x14  <for P4 s0>
+                             - 0x800'2918  0x2790
+
+"P3":                                      0x2000
+  CSTACK                      0x1000'0000  0x2000  <Block>
+    CSTACK           uninit   0x1000'0000  0x2000  <Block tail>
+                            - 0x1000'2000  0x2000
+
+"P4", part 1 of 2:                           0x14
+  P4 s0                       0x2000'0000    0x14  <Init block>
+    .data            inited   0x2000'0000    0x10  stm32f4xx_rcc.o [1]
+    .data            inited   0x2000'0010     0x4  system_stm32f4xx.o [1]
+                            - 0x2000'0014    0x14
+
+"P4", part 2 of 2:                          0x454
+  .bss               zero     0x2000'0014   0x400  main.o [1]
+  .bss               zero     0x2000'0414    0x24  main.o [1]
+  .bss               zero     0x2000'0438     0x4  main.o [1]
+  .bss               zero     0x2000'0440    0x10  canard_stm32.o [1]
+  .bss               zero     0x2000'0450    0x10  main.o [1]
+  .bss               zero     0x2000'0460     0x4  main.o [1]
+  .bss               zero     0x2000'0464     0x1  canard_stm32.o [1]
+  .bss               zero     0x2000'0465     0x1  main.o [1]
+                            - 0x2000'0466   0x452
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'2918   0x80f'ffff  0xf'd6e8
+  0x1000'2000  0x1000'ffff    0xe000
+  0x2000'0468  0x2001'bfff  0x1'bb98
+  0x2001'c000  0x2001'ffff    0x4000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x452:
+          0x2000'0014  0x452
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x14:
+           0x800'2904   0x14
+    1 destination range, total size 0x14:
+          0x2000'0000   0x14
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+command line/config:
+    ----------------------------------------------
+    Total:
+
+C:\Users\Martins\Documents\IAR Embedded Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj: [1]
+    canard.o               4 384      518
+    canard_stm32.o         1 264      336       17
+    main.o                 1 388      276    1 085
+    startup_stm32f4xx.o      772
+    stm32f4xx_gpio.o         270
+    stm32f4xx_it.o            32
+    stm32f4xx_rcc.o          268       16       16
+    system_stm32f4xx.o       292        4        4
+    ----------------------------------------------
+    Total:                 8 670    1 150    1 122
+
+dl7M_tln.a: [2]
+    abort.o                    6
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    14
+
+m7M_tls.a: [3]
+    fpinit_M.o                34
+    ----------------------------------------------
+    Total:                    34
+
+rt7M_tl.a: [4]
+    ABImemclr4.o               6
+    ABImemcpy.o              166
+    ABImemset.o              102
+    ABImemset48.o             50
+    U64Shr.o                  30
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              44
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              58
+    ----------------------------------------------
+    Total:                   548
+
+shb_l.a: [5]
+    ABIassert.o               36
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    56
+
+    Gaps                       8        4        4
+    Linker created                     36    8 192
+--------------------------------------------------
+    Grand Total:           9 330    1 190    9 318
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'25b4          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'25d8          --   Gb  - Linker created -
+?main                    0x800'25f9         Code  Gb  cmain.o [4]
+APBAHBPrescTable        0x2000'0000   0x10  Data  Lc  stm32f4xx_rcc.o [1]
+BusFault_Handler         0x800'25df    0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x1000'0000          --   Gb  - Linker created -
+CSTACK$$Limit           0x1000'2000          --   Gb  - Linker created -
+DebugMon_Handler         0x800'25e5    0x2  Code  Gb  stm32f4xx_it.o [1]
+GPIO_Init                0x800'1b01   0xa8  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_PinAFConfig         0x800'1bbb   0x54  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_ResetBits           0x800'1bad    0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_SetBits             0x800'1ba9    0x4  Code  Gb  stm32f4xx_gpio.o [1]
+GPIO_ToggleBits          0x800'1bb1    0xa  Code  Gb  stm32f4xx_gpio.o [1]
+HardFault_Handler        0x800'25db    0x2  Code  Gb  stm32f4xx_it.o [1]
+MemManage_Handler        0x800'25dd    0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler              0x800'25d9    0x2  Code  Gb  stm32f4xx_it.o [1]
+NVIC_SetPriority         0x800'1489   0x28  Code  Lc  main.o [1]
+PendSV_Handler           0x800'25e7    0x2  Code  Gb  stm32f4xx_it.o [1]
+RCC_AHB1PeriphClockCmd   0x800'1aad   0x1c  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_APB1PeriphClockCmd   0x800'1ac9   0x1c  Code  Gb  stm32f4xx_rcc.o [1]
+RCC_GetClocksFreq        0x800'19f5   0xb8  Code  Gb  stm32f4xx_rcc.o [1]
+Region$$Table$$Base      0x800'25b4          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'25d8          --   Gb  - Linker created -
+SVC_Handler              0x800'25e3    0x2  Code  Gb  stm32f4xx_it.o [1]
+SetSysClock              0x800'2147   0xaa  Code  Lc  system_stm32f4xx.o [1]
+SysTick_Config           0x800'14b1   0x36  Code  Lc  main.o [1]
+SysTick_Handler          0x800'25e9    0x8  Code  Gb  stm32f4xx_it.o [1]
+SystemCoreClock         0x2000'0010    0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit               0x800'2101   0x46  Code  Gb  system_stm32f4xx.o [1]
+TIM1_CC_IRQHandler       0x800'25f7    0x2  Code  Gb  stm32f4xx_it.o [1]
+TIM2_IRQHandler          0x800'25f1    0x2  Code  Gb  stm32f4xx_it.o [1]
+TIM3_IRQHandler          0x800'25f3    0x2  Code  Gb  stm32f4xx_it.o [1]
+TIM4_IRQHandler          0x800'25f5    0x2  Code  Gb  stm32f4xx_it.o [1]
+UsageFault_Handler       0x800'25e1    0x2  Code  Gb  stm32f4xx_it.o [1]
+__aeabi_assert           0x800'12a9   0x24  Code  Gb  ABIassert.o [5]
+__aeabi_llsr             0x800'141d         Code  Gb  U64Shr.o [4]
+__aeabi_memclr4          0x800'136d         Code  Gb  ABImemclr4.o [4]
+__aeabi_memcpy           0x800'1375         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4          0x800'1395         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8          0x800'1395         Code  Gb  ABImemcpy.o [4]
+__aeabi_memset           0x800'12cd         Code  Gb  ABImemset.o [4]
+__cmain                  0x800'25f9         Code  Gb  cmain.o [4]
+__exit                   0x800'1475   0x14  Code  Gb  exit.o [5]
+__iar_Memset             0x800'12cd         Code  Gb  ABImemset.o [4]
+__iar_Memset4_word       0x800'1441         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word       0x800'1441         Code  Gb  ABImemset48.o [4]
+__iar_Memset_word        0x800'12d5         Code  Gb  ABImemset.o [4]
+__iar_copy_init3         0x800'24f1   0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3         0x800'2545   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'2591         Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'2771         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3         0x800'1333   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'2617    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f4xx.o [1]
+_call_main               0x800'2605         Code  Gb  cmain.o [4]
+_exit                    0x800'2621         Code  Gb  cexit.o [4]
+_main                    0x800'2613         Code  Gb  cmain.o [4]
+abort                    0x800'143b    0x6  Code  Gb  abort.o [2]
+allocateBlock            0x800'1231   0x28  Code  Lc  canard.o [1]
+bufferBlockPushBytes     0x800'0edf  0x188  Code  Lc  canard.o [1]
+canardBroadcast          0x800'023d  0x108  Code  Gb  canard.o [1]
+canardBroadcast{3}{4}::DTIDMask
+                         0x800'1372    0x2  Data  Lc  canard.o [1]
+canardEncodeScalar       0x800'08b5  0x198  Code  Gb  canard.o [1]
+canardGetLocalNodeID     0x800'0239    0x4  Code  Gb  canard.o [1]
+canardHandleRxFrame      0x800'0433  0x47c  Code  Gb  canard.o [1]
+canardInit               0x800'0189   0x68  Code  Gb  canard.o [1]
+canardPeekTxQueue        0x800'0413   0x10  Code  Gb  canard.o [1]
+canardPopTxQueue         0x800'0423   0x10  Code  Gb  canard.o [1]
+canardReleaseRxTransferPayload
+                         0x800'0a59   0x30  Code  Gb  canard.o [1]
+canardRequestOrRespond   0x800'034d   0xc6  Code  Gb  canard.o [1]
+canardSTM32ComputeCANTimings
+                         0x800'14e7  0x1a0  Code  Lc  main.o [1]
+canardSTM32ComputeCANTimings::MaxBS1
+                         0x800'278c    0x4  Data  Lc  main.o [1]
+canardSTM32ComputeCANTimings::MaxBS2
+                         0x800'2790    0x4  Data  Lc  main.o [1]
+canardSTM32ComputeCANTimings::MaxSamplePointLocationPermill
+                         0x800'2794    0x4  Data  Lc  main.o [1]
+canardSTM32Init          0x800'1d5b  0x192  Code  Gb  canard_stm32.o [1]
+canardSTM32Receive       0x800'1ff7   0x94  Code  Gb  canard_stm32.o [1]
+canardSTM32Receive::RFxR
+                         0x800'277c    0x8  Data  Lc  canard_stm32.o [1]
+canardSTM32Transmit      0x800'1eed  0x10a  Code  Gb  canard_stm32.o [1]
+canardSTM32Transmit::AllTME
+                         0x800'2788    0x4  Data  Lc  canard_stm32.o [1]
+canardSetLocalNodeID     0x800'01f1   0x48  Code  Gb  canard.o [1]
+computeTransferIDForwardDistance
+                         0x800'0a89    0xe  Code  Lc  canard.o [1]
+convertFrameIDCanardToRegister
+                         0x800'1ca7   0x1c  Code  Lc  canard_stm32.o [1]
+convertFrameIDRegisterToCanard
+                         0x800'1cc3   0x20  Code  Lc  canard_stm32.o [1]
+copyBitArray             0x800'107b   0xba  Code  Lc  canard.o [1]
+crcAdd                   0x800'11e7   0x1e  Code  Lc  canard.o [1]
+crcAddByte               0x800'1191   0x26  Code  Lc  canard.o [1]
+crcAddSignature          0x800'11b7   0x30  Code  Lc  canard.o [1]
+createBufferBlock        0x800'1067   0x14  Code  Lc  canard.o [1]
+createRxState            0x800'0e7f   0x34  Code  Lc  canard.o [1]
+createTxItem             0x800'0ce1   0x20  Code  Lc  canard.o [1]
+enqueueTxFrames          0x800'0acd  0x190  Code  Lc  canard.o [1]
+exit                     0x800'261b    0x4  Code  Gb  exit.o [2]
+extractDataType          0x800'0dcd   0x2a  Code  Lc  canard.o [1]
+extractTransferType      0x800'0df7   0x22  Code  Lc  canard.o [1]
+findRxState              0x800'0e4f   0x14  Code  Lc  canard.o [1]
+freeBlock                0x800'1259   0x28  Code  Lc  canard.o [1]
+g_RCC_Clocks            0x2000'0450   0x10  Data  Lc  main.o [1]
+g_abort_tx_on_error     0x2000'0464    0x1  Data  Lc  canard_stm32.o [1]
+g_canard                0x2000'0414   0x24  Data  Lc  main.o [1]
+g_canard_memory_pool    0x2000'0014  0x400  Data  Lc  main.o [1]
+g_stats                 0x2000'0440   0x10  Data  Lc  canard_stm32.o [1]
+g_uptime                0x2000'0438    0x4  Data  Lc  main.o [1]
+getNodeInfoHandleCanard
+                         0x800'1899   0x44  Code  Lc  main.o [1]
+getUptime                0x800'196d    0x6  Code  Lc  main.o [1]
+gpioToggle               0x800'1707    0xa  Code  Lc  main.o [1]
+hwInit                   0x800'1687   0x80  Code  Lc  main.o [1]
+incrementTransferID      0x800'0a97   0x2e  Code  Lc  canard.o [1]
+initPoolAllocator        0x800'1205   0x2c  Code  Lc  canard.o [1]
+isBigEndian              0x800'1135   0x1c  Code  Lc  canard.o [1]
+isFramePriorityHigher    0x800'1c27   0x80  Code  Lc  canard_stm32.o [1]
+isPriorityHigher         0x800'0d01   0x7e  Code  Lc  canard.o [1]
+main                     0x800'1935   0x38  Code  Gb  main.o [1]
+makeNodeInfoMessage      0x800'1831   0x52  Code  Lc  main.o [1]
+makeNodeStatusMessage    0x800'17df   0x52  Code  Lc  main.o [1]
+onTransferReceived       0x800'172d   0x16  Code  Lc  main.o [1]
+prepareForNextTransfer   0x800'0d7f   0x44  Code  Lc  canard.o [1]
+prependRxState           0x800'0e63   0x1c  Code  Lc  canard.o [1]
+processErrorStatus       0x800'1d19   0x42  Code  Lc  canard_stm32.o [1]
+pushTxQueue              0x800'0c5d   0x7a  Code  Lc  canard.o [1]
+readUniqueID             0x800'1883   0x16  Code  Lc  main.o [1]
+receiveCanard            0x800'1909   0x26  Code  Lc  main.o [1]
+releaseStatePayload      0x800'0eb3   0x2c  Code  Lc  canard.o [1]
+sendCanard               0x800'18dd   0x2c  Code  Lc  main.o [1]
+shouldAcceptTransfer     0x800'1711   0x1c  Code  Lc  main.o [1]
+spinCanard               0x800'1791   0x4e  Code  Lc  main.o [1]
+spinCanard::spin_time   0x2000'0460    0x4  Data  Lc  main.o [1]
+spinCanard::transfer_id
+                        0x2000'0465    0x1  Data  Lc  main.o [1]
+swInit                   0x800'1745   0x4c  Code  Lc  main.o [1]
+swapByteOrder            0x800'1151   0x32  Code  Lc  canard.o [1]
+systickIsr               0x800'1973    0xa  Code  Gb  main.o [1]
+traverseRxStates         0x800'0e19   0x36  Code  Lc  canard.o [1]
+usleep                   0x800'1c11   0x16  Code  Lc  canard_stm32.o [1]
+waitMSRINAKBitStateChange
+                         0x800'1ce3   0x36  Code  Lc  canard_stm32.o [1]
+waitMSRINAKBitStateChange::TimeoutMilliseconds
+                         0x800'2784    0x4  Data  Lc  canard_stm32.o [1]
+
+
+[1] = C:\Users\Martins\Documents\IAR Embedded Workbench\arm\8.30.1\ST\STM32F4xx\STM32F4xx_DSP_StdPeriph_Lib\Project\first_project\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  9 330 bytes of readonly  code memory
+  1 190 bytes of readonly  data memory
+  9 318 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
